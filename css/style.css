@@ -74,13 +74,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Grid Styling for li */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-}
-
 /* Section and Article Styling */
 section,
 article {
