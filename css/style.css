@@ -23,18 +23,9 @@ body {
 
 main {
     grid-area: main;
+    background-color:#ffffff;
     margin: 0 auto;
     padding: 20px;
-}
-
-nav {
-    grid-area: nav;
-}
-/* Nav Styling */
-nav ul {
-    font-family: "Playfair Display", "Georgia", sans-serif;
-    font-size: 20px;
-    padding: 10px, 20px, 30px, 20px
 }
 
 /* Header Styling */
@@ -43,6 +34,7 @@ header {
     background-color: #ddd; /* light grey */
     padding: 20px 0;
 }
+
 h1,
 h2 {
     font-family: "Crimson Text", "Arial", sans-serif;
@@ -58,12 +50,42 @@ h3 {
     padding: 20px, 10px;
 }
 
+/* Paragraph Styling */
+#introduction p {
+    font-size: 15px;
+}
+
+/* Nav Styling */
+nav {
+    grid-area: nav;
+    padding: 20px 0;
+}
+
+nav ul {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    font-size: 20px;
+    padding: 10px, 20px, 30px, 20px
+}
+
+nav,
+ul,
+li {
+    padding: 0;
+    margin-bottom: 10px;
+}
 
 /* Grid Styling for li */
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+}
+
+/* Section and Article Styling */
+section,
+article {
+    background-color: #ddd;
+    margin-bottom: 20px;
 }
 
 /* Comparative Area Styling */
@@ -81,7 +103,7 @@ article p {
     color: #222;
     font-size: 14px;
     padding: 10px;
-    border: 1px solid color rgb(245,189,79); /* orange */
+    border: 1px solid color rgb(185,45,59); /* red */
     margin-top: 8px;
     max-width: 305px;
     margin-left: auto;
@@ -106,7 +128,11 @@ a:active {
     color: rgb()
 }
 
-/* Paragraph Styling */
-#introduction p {
-    font-size: 15px;
+/* Footer Styling */
+footer {
+    grid-area: footer;
+    font-size: 17px;
+    background-color: rgb(176,195,227); /* grey blue */
+    color: rgb(47,57,54); /* drk grey */
+    padding: 10px 0;
 }
