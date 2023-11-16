@@ -43,6 +43,11 @@ h2 {
     padding: 20px 0;
 }
 
+h1 {
+    font-size: 30px;
+    border-bottom: 1px color rgb(24,77,193);
+}
+
 h3 {
     font-family: "Crimson Text", "Arial," sans-serif;
     font-size: 18px;
@@ -75,8 +80,7 @@ li {
 }
 
 /* Section and Article Styling */
-section,
-article {
+section {
     background-color: rgb(233,233,236); /* lt grey */
     margin-bottom: 20px;
 }
