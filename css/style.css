@@ -28,7 +28,7 @@ main {
     padding: 20px;
 }
 
-#introduction {
+#introduction h2 {
     grid-column: 1 / -1;
 }
 
