@@ -28,6 +28,10 @@ main {
     padding: 20px;
 }
 
+#introduction {
+    grid-column: span2;
+}
+
 /* Header Styling */
 header {
     grid-area: header;
