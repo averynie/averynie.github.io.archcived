@@ -48,7 +48,7 @@ main {
 
 #second-paragraph {
     grid-column: 3/ -1;
-    grid-column: 3;
+    grid-row: 3;
 }
 
 /* Header Styling */
