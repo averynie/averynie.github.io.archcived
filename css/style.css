@@ -1,25 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Body Styling */
 body {
     font-family: "Playfair Display", "Georgia", sans-serif;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
     color: #222;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     line-height: 1.3;
+    margin: auto;
 }
 
 main {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
+}
+
+/* Nav Styling */
+nav ul {
+    font-family: "Playfair Display", "Georgia", sans-serif;
+    font-size: 15px;
+    padding: 10px, 20px, 30px, 20px
+}
+
+/* Grid Styling for li */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 /* Link Styling */
@@ -39,10 +50,12 @@ a:hover {
 a:active {
     color: rgb()
 }
-
+/* Header Styling */
 h1,
 h2,
 h3 {
     font-family: "Crimson Text", "Arial", sans-serif;
     font-weight: 900;
+    padding: 20px 0;
+
 }
