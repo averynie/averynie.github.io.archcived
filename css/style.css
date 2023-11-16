@@ -104,16 +104,14 @@ article p {
 }
 
 /* Caption Styling */
-#box {
+figcaption, #box {
     background-color: rgba(243,243,243); /* off-white */
     color: #222;
     font-size: 14px;
     padding: 10px;
-    border: 1px solid color rgb(185,45,59); /* red */
-    margin-top: 8px;
-    max-width: 305px;
-    margin-left: auto;
-    margin-right: auto;
+    border: 5px dotted color #FF0000;
+    margin: 0;
+    padding: 10px;
 }
 
 /* Link Styling */
