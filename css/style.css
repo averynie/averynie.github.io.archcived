@@ -21,6 +21,13 @@ body {
         "footer footer";
 }
 
+/* Main Content Styling */
+main {
+    grid-area: main;
+    background-color:#ffffff;
+    padding: 20px;
+}
+
 /* Header Styling */
 header {
     grid-area: header;
@@ -67,13 +74,6 @@ li {
 nav a {
     color: #333;
     text-decoration: none;
-}
-
-/* Main Content Styling */
-main {
-    grid-area: main;
-    background-color:#ffffff;
-    padding: 20px;
 }
 
 /* Section and Article Styling */
