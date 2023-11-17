@@ -53,11 +53,6 @@ h3 {
     font-weight: 400;
 }
 
-h2 {
-    grid-row: 1 / -1;
-    grid-column: 1 / -1;
-}
-
 /* Nav Styling */
 nav {
     grid-area: nav;
