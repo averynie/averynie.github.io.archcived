@@ -71,8 +71,6 @@ nav a {
 
 /* Main Content Styling */
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-area: main;
     background-color:#ffffff;
     padding: 20px;
@@ -139,7 +137,7 @@ a:hover {
 }
 
 a:active {
-    color: rgb(24,77,193);
+    color: rgb(24,77,193)
 }
 
 /* Footer Styling */
@@ -148,5 +146,5 @@ footer {
     font-size: 17px;
     background-color: rgb(176,195,227); /* grey blue */
     color: rgb(47,57,54); /* drk grey */
-    padding: 10px;
+    padding: 10px 0;
 }
