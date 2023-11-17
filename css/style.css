@@ -24,8 +24,11 @@ body {
 /* Main Content Styling */
 main {
     grid-area: main;
-    background-color:#ffffff;
+    max-width: 960px;
+    margin: 20px auto;
     padding: 20px;
+    background-color:#ffffff;
+    border: 1px solid rgb(24,77,193);
 }
 
 /* Nav Styling */
@@ -58,27 +61,34 @@ nav a {
 
 /* Section and Article Styling */
 
-section {
+section #introduction,
+section #geography,
+section #peopleandsociety,
+section #economy {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     grid-gap: 20px;
     margin-bottom: 0;
-    padding-bottom: 0
+    padding-bottom: 0;
+    grid-template-areas: 
+    "header header"
+    "article article"
 }
 
-#introduction {
+section #introduction h2{
     grid-column: 1 / -1;
 }
 
-#geography {
+section #geography {
     grid-column: 1 / -1;
 }
 
-#peopleandsociety {
+section #peopleandsociety {
     grid-column: 1 / -1;
 }
 
-#economy {
+section #economy {
     grid-column: 1 / -1;
 }
 
