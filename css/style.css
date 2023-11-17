@@ -46,22 +46,6 @@ h3 {
     font-weight: 400;
 }
 
-/* Main Content Styling */
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-area: main;
-    background-color:#ffffff;
-    padding: 20px;
-}
-
-/* Introduction Styling */
-#introduction {
-    grid-area: intro;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
 /* Nav Styling */
 nav {
     grid-area: nav;
@@ -84,6 +68,16 @@ nav a {
     color: #333;
     text-decoration: none;
 }
+
+/* Main Content Styling */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: main;
+    background-color:#ffffff;
+    padding: 20px;
+}
+
 /* Section and Article Styling */
 section {
     display: grid;
