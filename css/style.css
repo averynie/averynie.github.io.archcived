@@ -255,4 +255,5 @@ figcaption, #box {
     font-size: 14px;
     border: 1px dotted #FF0000;
     padding: 10px;
+    overflow: auto
 }
